@@ -1,0 +1,103 @@
+.dash-container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-dash-container {
+    width: 20%;
+    background-color: crimson;
+    padding: 10px;
+}
+
+.right-dash-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+}
+
+.top-dash {
+    height: 10%;
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.down-dash {
+    height: 90%;
+    background-color: chocolate;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+    align-items: flex-start;
+}
+
+.button button {
+    padding: 10px 20px;
+    background-color: green;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button button:hover {
+    background-color: green;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+.dashboard {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.dashboard-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.dashboard-header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.dashboard-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0;
+}

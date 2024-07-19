@@ -1,0 +1,38 @@
+body{
+
+    padding: 0;
+
+}
+
+.nav-container {
+    background-color:white;
+    color: blue;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav-container h3{
+    color: green;
+    margin: 0;
+
+
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav a{
+
+    color: yellow;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+    
+
+}
